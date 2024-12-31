@@ -3,10 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify-clone</title>
+    <title>Spotify-Your favourite music is here!</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
 </head>
 <body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="/SPOTIFY-CLONE/images/spotify-1759471_1280.webp" alt=" spotify">Spotify</li>
+            <li>Home</li>
+            <li>Liked Songs</li>
+            <li> About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="song-list">
+            <h1 style="margin: 0px 17px ;">  Currently Favourite!!</h1>
+            <div>
+                <div class="songItem">
+                    <p style="margin-left: 1rem;">1.</p>
+                    <img src="/SPOTIFY-CLONE/images/cover pic.jpeg" alt="1">
+                    <span style="margin: 0 12px 0 12px;">Ishq hai</span>
+                    <span class="songlistplay"> <span style="margin-left: 90px; color: rgb(55, 17, 209);">05:13</span>   </span>
+                </div>
+                <div class="songItem">
+                    <p style="margin-left: 1rem;">2.</p>
+                    <img src="/SPOTIFY-CLONE/images/cover2.jpeg " alt="2">
+                    <span style="margin: 0 12px 0 12px; ">Ishq di Baajiyaan</span>
+                    <span class="songlistplay"> <span style="margin-left: 25px; color: rgb(55, 17, 209);">04:47</span>   </span>
+                </div>
+                <div class="songItem">
+                    <p style="margin-left: 1rem;">3.</p>
+                    <img src="/SPOTIFY-CLONE/images/cover3.jpeg" alt="3">
+                    <span style="margin: 0 12px 0 12px;">Sahiba</span>
+                    <span class="songlistplay"> <span style="margin-left: 98px; color: rgb(55, 17, 209);">03:37</span>   </span>
+                </div>
+                <div class="songItem">
+                    <p style="margin-left: 1rem;">4.</p>
+                    <img src="/SPOTIFY-CLONE/images/cover4.jpeg" alt="4">
+                    <span style="margin: 0 12px 0 12px;">Haan ke Haan</span>
+                    <span class="songlistplay"> <span style="margin-left: 45px; color: rgb(55, 17, 209);">03:24</span>  </span>
+                </div>
+                <div class="songItem">
+                    <p style="margin-left: 1rem;">5.</p>
+                    <img src="/SPOTIFY-CLONE/images/cover5.jpeg" alt="5">
+                    <span style="margin: 0 12px 0 12px;">Dil tu Jaan tu</span>
+                    <span class="songlistplay"> <span style="margin-left: 52px; color: rgb(55, 17, 209);">03:57</span>   </span>
+                </div>
+                <div class="songItem">
+                    <p style="margin-left: 1rem;">6.</p>
+                    <img src="/SPOTIFY-CLONE/images/cover6.jpeg" alt="6">
+                    <span style="margin: 0 12px 0 12px;">Mera Mann</span>
+                    <span class="songlistplay"> <span style="margin-left: 65px; color: rgb(55, 17, 209);">02:43</span>   </span>
+                </div>
+                <div class="songItem">
+                    <p style="margin-left: 1rem;">7.</p>
+                    <img src="/SPOTIFY-CLONE/images/cover7.jpeg" alt="7">
+                    <span style="margin: 0 12px 0 12px;">Ve Kamleya</span>
+                    <span class="songlistplay"> <span style="margin-left: 60px; color: rgb(55, 17, 209);">05:57</span>   </span>
+                </div>
+            </div>
+        </div>
+        <div class="song-banner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressbar" class="accent" min="0" value="0" max="100" >
+        <div class="icons">
+            <i id="previous" class="fa-solid fa-3x fa-backward-step"></i>
+            <i id="masterPlay" class="fa-regular fa-3x fa-circle-play"></i>
+            <i id="next" class="fa-solid fa-3x fa-forward-step"></i>
+        </div>
+        <div class="songInfo">
+            <img src="/SPOTIFY-CLONE/images/gif.gif" width="100px" height="40px" alt="gif" id="gif" ><span  style="font-size: 30px;" id="masterSongName">Ishq hai</span>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

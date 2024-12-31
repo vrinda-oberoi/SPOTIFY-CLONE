@@ -1,0 +1,119 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+    background-color:black;
+}
+
+nav{
+    font-family:'Times New Roman', Times, serif;
+}
+ nav ul{
+    display:flex;
+    align-items: center;
+    font-size: 1.2rem;
+    list-style-type: none;
+    background-color: black;
+    height: 75px;
+    color: white;
+    
+}
+
+li{
+  margin-left: 20px;
+}
+ul li:hover{
+    text-decoration: underline;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.logo img{
+    height: 55px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.logo:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+  min-height: 71vh;
+  background-color: black;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70%;
+  margin: 23px auto;
+  border-radius: 12px;
+  background-image: url("/SPOTIFY-CLONE/images/pic.jpg");
+  background-size: 70vw 79vh;
+}
+
+.bottom{
+   background-color:black;
+   position: sticky;
+   height: 100px;
+   bottom: 0;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   color: white;
+  flex-direction:column;
+}
+
+#myProgressbar{
+    width: 70vw;
+    margin-left: 14rem;
+    
+}
+.accent{
+    accent-color: white;
+}
+.icons{
+    margin-top: 14px;
+    cursor: pointer;
+    margin-left: 1rem; 
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color:rgb(138, 134, 134);
+    color: black;
+    width: 340px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.songItem img{
+    height: 43px;
+    margin:0px 12px 0px 12px;
+    border-radius: 8px;
+}
+
+.songlistplay i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left:15vw;
+    margin-top: 1rem;
+}
+.songInfo img{
+   opacity: 0;
+   transition:  0.4s ease-in;
+}
